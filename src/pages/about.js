@@ -4,23 +4,23 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MainSection from "../components/Global/MainSection"
-import Info from "../components/Home/Info"
+import Info2 from "../components/Home/Info2"
 
-const IndexPage = ({ data }) => (
+const AboutPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <MainSection
       img={data.img.childImageSharp.fluid}
-      title="Takie piwo"
-      styleClass="default-background"
+      title="o nas"
+      styleClass="about-background"
     />
-    <Info />
+    <Info2 />
   </Layout>
 )
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "2.jpg" }) {
+    img: file(relativePath: { eq: "about.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -30,4 +30,4 @@ export const query = graphql`
   }
 `
 
-export default IndexPage
+export default AboutPage

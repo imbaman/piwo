@@ -16,3 +16,23 @@ body {
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
+.default-background,
+.about-background {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.about-background {
+  min-height: 40vh;
+}
+.btn-yellow {
+  color: var(--thirdColor);
+  border-color: var(--thirdColor);
+}
+
+.footer {
+  background: var(--secondaryColor);
+}
