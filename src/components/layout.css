@@ -4,6 +4,7 @@
   --thirdColor: #ca5116;
   --randomColor: #581c0c;
 }
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -35,4 +36,13 @@ body {
 
 .footer {
   background: var(--secondaryColor);
+}
+
+.menu,
+.contact {
+  background: var(--mainColor);
+}
+.img-container {
+  max-height: 100%;
+  width: auto;
 }
