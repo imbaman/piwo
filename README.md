@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+# Beer shop
 
-# piwo
+Run
 
 ```
 gatsby develop
