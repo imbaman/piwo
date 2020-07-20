@@ -11,7 +11,7 @@ const AboutPage = ({ data }) => (
     <SEO title="Home" />
     <MainSection
       img={data.img.childImageSharp.fluid}
-      title="o nas"
+      title="About us"
       styleClass="about-background"
     />
     <Info2 />

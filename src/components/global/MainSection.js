@@ -4,7 +4,7 @@ import BackgroundImage from "gatsby-background-image"
 export default function MainSection({ img, styleClass, title, children }) {
   return (
     <BackgroundImage className={styleClass} fluid={img}>
-      <h1 className="title text-light text-uppercase text-center display-6 font-weight-bold">
+      <h1 className="title text-light text-uppercase text-center display-7 font-weight-bold font-italic">
         {title}
       </h1>
       {children}

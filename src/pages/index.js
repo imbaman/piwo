@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <MainSection
       img={data.img.childImageSharp.fluid}
-      title="Takie piwo"
+      title="Beer"
       styleClass="default-background"
     />
     <Info />
